@@ -1,0 +1,288 @@
+﻿body
+{
+    background-color: #fff;
+}
+
+.nav-links
+{
+    font-size: 1.6em;
+    margin: 20px 0 0 0;
+}
+@media (min-width: 768px)
+{
+    .nav-links
+    {
+        margin: 20px 0 0 32px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .nav-links
+    {
+        margin: 20px 0 0 64px;
+    }
+}
+
+.story
+{
+    margin: 88px 0 60px 0;
+}
+
+.hero
+{
+    position: relative;
+    overflow: hidden;
+    background: url("../img/bg.png");
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0 20px;
+}
+@media (min-width: 768px)
+{
+    .hero
+    {
+        padding: 70px 0 100px 0;
+    }
+}
+@media (min-width: 1200px)
+{
+    .hero
+    {
+        min-height: 720px;
+    }
+}
+.hero h1
+{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 18px;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 1.35em;
+}
+@media (min-width: 768px)
+{
+    .hero h1
+    {
+        font-size: 1.94438em;
+        padding: 30px 0;
+    }
+}
+@media (min-width: 1200px)
+{
+    .hero h1
+    {
+        font-size: 2.79938em;
+        padding: 30px 0;
+    }
+}
+
+.galerry
+{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0 20px;
+}
+
+/* Normal Footer */
+body .footer
+{
+    margin: 60px 0 0;
+    padding: 0;
+    z-index: 900;
+    position: relative;
+}
+body .footer .container, body .footer footer
+{
+    border-top: 6px solid gainsboro;
+    padding: 0 0 0.5em;
+    margin: 0 auto;
+    min-height: 80px;
+}
+body .footer .container.container, body .footer footer.container
+{
+    padding: 1em 0 1.5em;
+    border-top: none;
+}
+body .footer .container a, body .footer footer a
+{
+    color: #40badc;
+}
+body .footer .container a:hover, body .footer footer a:hover
+{
+    color: #323e48;
+}
+body .footer .container a.btn, body .footer footer a.btn
+{
+    color: white;
+}
+body .footer .container nav, body .footer footer nav
+{
+    margin-top: 0.5em;
+}
+body .footer .container nav ul, body .footer footer nav ul
+{
+    margin-bottom: 0;
+}
+body .footer .container nav ul li, body .footer footer nav ul li
+{
+    margin-right: 3.25%;
+    padding: 0.667em 0;
+}
+body .footer .container .logo, body .footer footer .logo
+{
+    max-width: 175px;
+    display: inline-block;
+    margin: 0;
+}
+body .footer .container .logo-bg, body .footer footer .logo-bg
+{
+    background: url(../img/engine-yard-logo.png) no-repeat 0 0;
+    text-indent: -999em;
+}
+body .footer .container.container
+{
+    padding-top: 30px;
+    padding-bottom: 65px;
+    padding: 0 15px;
+}
+@media (min-width: 992px)
+{
+    body .footer .container.container
+    {
+        padding: 1em 0 .2em;
+    }
+}
+
+body .footer
+{
+    background: #2f3f4e;
+    height: auto;
+    margin: 0;
+}
+body .footer .container
+{
+    padding-top: 1.75em;
+    padding-bottom: 2em;
+    color: white;
+    padding: 0 15px;
+}
+@media (min-width: 480px)
+{
+    body .footer .container
+    {
+        padding: 1.75em 0 2em;
+    }
+}
+body .footer .container a
+{
+    color: white;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+body .footer .container dl
+{
+    padding: 0;
+    margin: 1.5em 0 1.5em;
+    line-height: 1.4;
+    font-size: 0.9375em;
+}
+@media (min-width: 992px)
+{
+    body .footer .container dl
+    {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+}
+body .footer .container dl.legal
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+body .footer .container dt a, body .footer .container dd a
+{
+    color: white;
+}
+body .footer .container dt a:hover, body .footer .container dd a:hover
+{
+    color: #96d9ec;
+}
+body .footer .container dt
+{
+    font-weight: 500;
+    padding: 0;
+    margin: 0.5em 0 0.75em;
+    font-size: 1.125em;
+    padding-top: 0;
+}
+@media (min-width: 992px)
+{
+    body .footer .container dt
+    {
+        padding-top: 0;
+    }
+}
+body .footer .container dt.system-status
+{
+    padding-top: 0.5em;
+}
+body .footer .container dd
+{
+    font-size: 1.0375em;
+    padding: 0;
+    margin: 0.425em 0;
+    font-family: "Avenir W02" , Avenir, Futura, "Gill Sans" , Calibri, "Century Gothic" , "AppleGothic" , Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    letter-spacing: -0.025em;
+    font-weight: 200;
+}
+body .footer .container ul li
+{
+    padding-top: 0;
+}
+body .footer .container ul li a
+{
+    display: block;
+}
+body .footer .container ul li a:hover
+{
+    background-color: #96d9ec;
+}
+
+ul.unstyled, ol.unstyled
+{
+    margin-left: 0;
+    list-style: none;
+}
+ul.unstyled ul, ul.unstyled ol, ol.unstyled ul, ol.unstyled ol
+{
+    list-style: none;
+}
+
+ul.inline, ol.inline
+{
+    margin-left: 0;
+    list-style: none;
+}
+
+ul.inline > li, ol.inline > li
+{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.breadcrumb
+{
+    padding: 0 8px 0 0;
+    background-color: #fff;
+}
+
+.category-col a
+{
+    line-height: 2em;
+}
