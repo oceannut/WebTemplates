@@ -27,25 +27,56 @@
                     <div class="row" style="height: 88px;">
                         <div class="col-sm-12">
                             <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
-                                    class="icon-bar"></span><span class="icon-bar"></span>
+                                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#" title="Think In Bio">
-                                <img src="static/img/logo.png" alt="Think In Bio" /></a>
+                            <a class="navbar-brand" href="#" title="logo">
+                                <img class="img-thumbnail" data-src="holder.js/32x32" alt="logo"
+                                     src="static/img/">
+                            </a>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav nav-links">
-                                    <li><a id="home-link" href="app/home.htm">
-                                        <label id="navi_home">
-                                        </label>
-                                    </a></li>
-                                    <li><a id="product-link" href="app/product.htm">
-                                        <label id="navi_product">
-                                        </label>
-                                    </a></li>
-                                    <li><a id="aboutus-link" href="app/about-us.htm">
-                                        <label id="navi_aboutus">
-                                        </label>
-                                    </a></li>
+                                    <li>
+                                        <a id="home-link" href="app/home.htm">
+                                            首页
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">关于我们 <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a id="aboutus-link" href="app/about-us.htm">关于我们</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">公司简介</a></li>
+                                            <li><a href="#">发展历程</a></li>
+                                            <li><a href="#">文化理念</a></li>
+                                            <li><a href="#">技术实力</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">产品中心 <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a id="aboutus-link" href="app/product.htm">产品中心</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">原料</a></li>
+                                            <li><a href="#">大包装</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            新闻动态
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">售后服务 <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">技术支持</a></li>
+                                            <li><a href="#">常见问题</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            联系我们
+                                        </a>
+                                    </li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class="divider-vertical hidden-xs"></li>
@@ -67,45 +98,65 @@
                 <div class="col-sm-4">
                     <dl>
                         <dt>
-                            <img src="static/img/board.png" /></dt>
-                        <dd id="addr_company">
-                        </dd>
-                        <dd id="addr_loc">
+                            <img class="img-thumbnail" data-src="holder.js/64x64" alt="logo"
+                                 src="static/img/">
+                        </dt>
+                        <dd>
+                            xxx生物技术有限公司
                         </dd>
                         <dd>
-                            <label id="addr_zip">
+                            公司地址
+                        </dd>
+                        <dd>
+                            <label>
+                                邮政编码
                             </label>
-                            : 101101</dd>
+                            : 101101
+                        </dd>
                     </dl>
                 </div>
                 <div class="col-sm-4">
                     <dl>
-                        <dt id="contact_title"></dt>
+                        <dt>联系方式</dt>
                         <dd>
-                            <label id="contact_tel">
+                            <label>
+                                联系电话
                             </label>
-                            :+86-010-80848528</dd>
+                            :+86-010-xxxxxxxxx
+                        </dd>
                         <dd>
-                            <label id="contact_mobile">
+                            <label>
+                                传真
                             </label>
-                            :+86-13718805352</dd>
+                            :+86-010-xxxxxxxxx
+                        </dd>
                         <dd>
-                            <a href="mailto:#">thinkinbio@126.com</a></dd>
+                            <label>
+                                手机
+                            </label>
+                            :+86-xxxxxxxxxxx
+                        </dd>
+                        <dd>
+                            <a href="mailto:#">xxxxxx@xxxxxx.com</a>
+                        </dd>
                     </dl>
                 </div>
                 <div class="col-sm-4">
-                    <!--<dl>
+                    <dl>
+                        <dt>友情链接</dt>
                         <dd>
-                            <a href="/company/press">我的博客</a></dd>
+                            <a href="#">xxxxxx</a>
+                        </dd>
                         <dd>
-                            <a href="/company/careers">软件设计</a></dd>
-                    </dl>-->
+                            <a href="#">xxxxxx</a>
+                        </dd>
+                    </dl>
                 </div>
             </div>
             <hr />
             <div class="row">
                 <div class="col-sm-4">
-                    <!--<ul class="inline unstyled">
+                    <ul class="inline unstyled">
                         <li><a href="tencent://message/?uin=1912629804" target="_blank"><span class="fa fa-qq fa-2x"
                             title="QQ"></span></li>
                         <li><a href="http://facebook.com/engineyard" target="_blank"><span class="fa fa-skype fa-2x"
@@ -114,12 +165,13 @@
                             title="微博"></span></li>
                         <li><a href="http://vimeo.com/engineyard" target="_blank"><span class="fa fa-weixin fa-2x"
                             title="微信"></span></li>
-                    </ul>-->
+                    </ul>
                 </div>
                 <div class="col-sm-4 col-sm-offset-4">
-                    <!--京ICP备14029677号-1-->
-                    &copy; 2014
-                    <label id="designer">
+                    XICP备XXXXXXXXXX
+                    &copy; 2015
+                    <label>
+                        <a href="#">新科英博设计</a>
                     </label>
                 </div>
             </div>
